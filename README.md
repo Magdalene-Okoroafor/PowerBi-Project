@@ -46,11 +46,11 @@ Tool Used: Microsoft Power BI
 
 The following BI techniques and concepts were applied:
 
-• Data Cleaning & Transformation using Power Query
-• Data Modeling to establish structured relationships between tables
-• DAX Implementation for advanced calculations and metrics
-• Data Visualization for interactive and insightful dashboards
-• Comprehensive Project Documentation for clear reporting of insights
+- Data Cleaning & Transformation using Power Query
+- Data Modeling to establish structured relationships between tables
+- DAX Implementation for advanced calculations and metrics
+- Data Visualization for interactive and insightful dashboards
+- Comprehensive Project Documentation for clear reporting of insights
 
 
 ### Data Modeling
