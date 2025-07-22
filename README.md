@@ -116,7 +116,7 @@ Measure
 </pre>
 
 
-4.  Stores
+5.  Stores
 
 Measure
 
@@ -140,7 +140,7 @@ Findings revealed that Toys and Electronics drive the highest profits, with Down
 Recommendations include optimizing inventory, investing in high-performing locations, andaddressing seasonal sales fluctuations to enhance profitability and business growth.
 
 
-<img width="853" height="476" alt="Maven Toy Shop Dashboard" src="https://github.com/user-attachments/assets/37d4d293-2522-476a-a120-24377df0ec66" />
+<img width="854" height="479" alt="Maven Toy Shop Dashboard" src="https://github.com/user-attachments/assets/78521eca-3c2f-4a6c-8841-95cd9aed264a" />
 
 
 
@@ -223,7 +223,8 @@ Summary of Key Findings:
 4. Electronics excel in Airport and Commercial locations, while Toys dominate Downtown
 and Residential areas.
 
-Strategic Recommendations:
+### Strategic Recommendations:
+
 1. Expand investment in Downtown stores to capitalize on high profitability.
 2. Investigate low sales in January and February to identify and mitigate potential market
 challenges.
