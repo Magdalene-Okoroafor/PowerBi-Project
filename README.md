@@ -58,22 +58,78 @@ The following BI techniques and concepts were applied:
 Effective data modeling structures raw data into an analytical framework, allowing seamless relationship-building between tables. In this project, Power BI automatically identified table
 relationships, forming a star schema model:
 
-• Fact Table: Sales Table, Inventory
-• Dimension Tables: Products, Stores, and Dates
+- Fact Table: Sales Table, Inventory
+- Dimension Tables: Products, Stores, and Dates
 
 ### DAX 
 
-1. Auto Calender
+1. Date 
+
+Table
 
 <pre>
    Date_Table = CALENDARAUTO()
 </pre>
  
- 2. Inventory Value
+ 2. Inventory 
+
+Column
 
 <pre>
    Inventory Value = Inventory[Stock_On_Hand]*RELATED(Products[Product_Cost])
 </pre>
+
+3. Products
+
+Measure
+
+<pre>
+   No of Products = COUNTROWS(Products)
+</pre>
+
+<pre>
+  Profit Category = SUMX(VALUES(Products[Product_Category]), [Total Profit])
+</pre>
+
+<pre>
+  Sales Category = CALCULATE([Total Sales], ALL(Products[Product_Category]))
+</pre>
+
+4.  Sales 
+
+Measure
+
+<pre>
+  Total Cost = SUMX (Sales,Sales[Units]*RELATED(Products[Product_Cost]))
+</pre>
+
+<pre>
+  Total Profit = [Total Sales]-[Total Cost]
+</pre>
+
+<pre>
+  Total Sales = SUMX(Sales,Sales[Units]*RELATED(Products[Product_Price]))
+</pre>
+
+<pre>
+  Total Units Sold = SUM(Sales[Units])
+</pre>
+
+
+4.  Stores
+
+Measure
+
+<pre>
+  No of Stores = COUNTROWS(Stores)
+</pre>
+
+<pre>
+  Profit by Store = CALCULATE([Total Profit],VALUES(Stores[Store_Location]))
+</pre>
+
+
+
 
 
    
