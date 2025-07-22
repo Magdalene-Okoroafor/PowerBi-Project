@@ -1,6 +1,6 @@
 # Maven Toy Store Analysis
 
-## Introduction
+### Introduction
 
 This business intelligence (BI) analysis focuses on Maven Toy Store, a leading toy retail chain in Mexico. The dataset encompasses extensive sales and inventory data, including product details, store locations, daily sales transactions, and stock levels across multiple outlets.
 
@@ -12,7 +12,7 @@ As a BI consultant recently engaged by Maven Toys, the role is to uncover signif
 
 A Power BI dashboard or report featuring data-driven insights and strategic recommendations.
 
-## Dataset Overview
+### Dataset Overview
 
 The dataset comprises four core tables:
 
@@ -21,3 +21,13 @@ The dataset comprises four core tables:
 3. Stores Table: Includes data on 50 toy stores across 29 cities in Mexico.
 4. Products Table: Lists product IDs, names, costs, and selling prices.
 
+
+### Objectives of the Analysis
+
+The primary goal of this analysis is to generate actionable insights into Maven Toy Store's overall sales performance and profitability by evaluating:
+
+1. Store location performance
+2. Seasonal sales trends
+3. Product profitability and sales effectiveness
+   
+Based on these findings, recommendations will be provided to optimize business strategies.
