@@ -146,7 +146,7 @@ Recommendations include optimizing inventory, investing in high-performing locat
 
 ### Key Insights and Recommendations
 
-###Product Analysis
+### Product Analysis
 
 📓 Which product categories generate the highest profits?
 • Toys are the most profitable, contributing $1.08M (26.89%) of total profits.
